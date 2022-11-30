@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "exclude": [
+    "../tests/js",
+    "../fixtures/js-stubs",
+    "../static/app/**/*.spec.*",
+    "../static/app/**/*.benchmark.ts",
+    "../static/app/views/settings/project/server-side-sampling/testUtils.tsx"
+  ]
+}
