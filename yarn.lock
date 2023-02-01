@@ -2373,6 +2373,14 @@
     "@react-types/overlays" "^3.6.4"
     "@react-types/shared" "^3.15.0"
 
+"@react-types/menu@^3.7.3":
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/@react-types/menu/-/menu-3.7.3.tgz#beb8d0fb7f1e50254e2e7661dfbfa4bb38826dad"
+  integrity sha512-3Pax24I/FyNKBjKyNR4ePD8eZs35Th57HzJAVjamQg2fHEDRomg9GQ7fdmfGj72Dv3x3JRCoPYqhJ3L5R3kbzg==
+  dependencies:
+    "@react-types/overlays" "^3.6.5"
+    "@react-types/shared" "^3.16.0"
+
 "@react-types/numberfield@^3.1.0", "@react-types/numberfield@^3.3.5":
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/@react-types/numberfield/-/numberfield-3.3.5.tgz#423aced559f7431e88b7988bf7e2cb3870fcdb1c"
@@ -2393,6 +2401,13 @@
   integrity sha512-REC4IyDUHS5WhwxMxcvTo+LdrvlSYpJKjyYkPFtJoDBpM3gmXfakTY3KW6K5eZkFv3TnmXjDF9Q2yboEk2u6WQ==
   dependencies:
     "@react-types/shared" "^3.15.0"
+
+"@react-types/overlays@^3.6.5":
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/@react-types/overlays/-/overlays-3.6.5.tgz#466b325d9be51f67beb98b7bec3fd9295c72efac"
+  integrity sha512-IeWcF+YTucCYYHagNh8fZLH6R4YUONO1VHY57WJyIHwMy0qgEaKSQCwq72VO1fQJ0ySZgOgm31FniOyKkg6+eQ==
+  dependencies:
+    "@react-types/shared" "^3.16.0"
 
 "@react-types/shared@^3.10.0", "@react-types/shared@^3.14.1", "@react-types/shared@^3.15.0", "@react-types/shared@^3.16.0", "@react-types/shared@^3.8.0", "@react-types/shared@^3.9.0":
   version "3.16.0"
