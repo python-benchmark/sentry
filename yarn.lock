@@ -14764,10 +14764,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-tocbot@^4.18.2:
-  version "4.18.2"
-  resolved "https://registry.yarnpkg.com/tocbot/-/tocbot-4.18.2.tgz#e98bb4120fae02f0e4a01d3acff03f3db2ba3ad9"
-  integrity sha512-bWUfEYQZ4oFgT+qZYvzlTgbsTmA645ApHbo1iRaOBUeFfy5IpctgAQQjCXbPZy+4RDZ1JJYlIBgoApZMzMaYog==
+tocbot@^4.21.1:
+  version "4.21.1"
+  resolved "https://registry.yarnpkg.com/tocbot/-/tocbot-4.21.1.tgz#7b667bef1c3ea1a07e4f400b742aa71e7e7e5ba0"
+  integrity sha512-IfajhBTeg0HlMXu1f+VMbPef05QpDTsZ9X2Yn1+8npdaXsXg/+wrm9Ze1WG5OS1UDC3qJ5EQN/XOZ3gfXjPFCw==
 
 toidentifier@1.0.1:
   version "1.0.1"
