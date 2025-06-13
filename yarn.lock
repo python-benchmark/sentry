@@ -2420,6 +2420,20 @@
   dependencies:
     "@react-types/shared" "^3.16.0"
 
+"@sentry-internal/browser-utils@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/browser-utils/-/browser-utils-9.29.0.tgz#514aa0536387ecaf13cec2b12ba246926462a96f"
+  integrity sha512-Wp6UJCDVV2KVK+TG8GwdLZyDy4GtUYDmVhGMpHKPS3G/Qgpf36cY/XHwChwaHZ5P9Bk1sjS9Ok698J59S8L2nw==
+  dependencies:
+    "@sentry/core" "9.29.0"
+
+"@sentry-internal/feedback@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/feedback/-/feedback-9.29.0.tgz#ae0774267373565ba6bb187595ae19d24b8368d2"
+  integrity sha512-ADvetGrtr+RfYcQKrQxah4fHs/xDJ/VjbStVMSuaNllzwWPYNkWIGFE6YjQ7wZszj0DQIu5/H+B6lZKsFYk4xw==
+  dependencies:
+    "@sentry/core" "9.29.0"
+
 "@sentry-internal/global-search@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/global-search/-/global-search-0.3.0.tgz#f0fda5ae9b19cf96a979dddbd0573dc894950c63"
@@ -2435,15 +2449,32 @@
     htmlparser2 "^4.1.0"
     title-case "^3.0.2"
 
-"@sentry/browser@7.19.0":
-  version "7.19.0"
-  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-7.19.0.tgz#ce21544b843d5c4d5dcb9fe9b7ee31c5c4e91f42"
-  integrity sha512-dWi5VjEwiLb4ofata0UCLdTbXLD1uDUebe9rNSBkHZ3fHF4eap4ZJlu3dYePKB0CKZhZrjzbydimMhaMUNdnug==
+"@sentry-internal/replay-canvas@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/replay-canvas/-/replay-canvas-9.29.0.tgz#0d9ff6a74215ca4dc7f5067970910e41b456d61c"
+  integrity sha512-TrQYhSAVPhyenvu0fNkon7BznFibu1mzS5bCudxhgOWajZluUVrXcbp8Q3WZ3R+AogrcgA3Vy6aumP/+fMKdwg==
   dependencies:
-    "@sentry/core" "7.19.0"
-    "@sentry/types" "7.19.0"
-    "@sentry/utils" "7.19.0"
-    tslib "^1.9.3"
+    "@sentry-internal/replay" "9.29.0"
+    "@sentry/core" "9.29.0"
+
+"@sentry-internal/replay@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/replay/-/replay-9.29.0.tgz#8d6b46209a2f8dff05e2be5d5ee416ded69cb59f"
+  integrity sha512-we/1JPRje8sNowQCyogOV1OYWuDOP/3XmDi48XoFG2HB0XMl2HfL5LI8AvgAvC/5nrqVAAo4ktbjoVLm1fb7rg==
+  dependencies:
+    "@sentry-internal/browser-utils" "9.29.0"
+    "@sentry/core" "9.29.0"
+
+"@sentry/browser@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-9.29.0.tgz#c356e6588ed2509e225c2536b0d7c233ce711f90"
+  integrity sha512-+GFX/yb+rh6V1fSgTYM6ttAgledl2aUR3T3Rg86HNuegbdX8ym6lOtUOIZ0j9jPK015HR47KIPyIZVZZJ7Rj9g==
+  dependencies:
+    "@sentry-internal/browser-utils" "9.29.0"
+    "@sentry-internal/feedback" "9.29.0"
+    "@sentry-internal/replay" "9.29.0"
+    "@sentry-internal/replay-canvas" "9.29.0"
+    "@sentry/core" "9.29.0"
 
 "@sentry/core@7.17.4":
   version "7.17.4"
@@ -2462,6 +2493,11 @@
     "@sentry/types" "7.19.0"
     "@sentry/utils" "7.19.0"
     tslib "^1.9.3"
+
+"@sentry/core@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-9.29.0.tgz#99932718454c381dc16bb4240ea35d60c25563e6"
+  integrity sha512-wDyNe45PM+RCGtUn1tK7LzJ08ksv8i8KRUHrst7lsinEfRm83YH+wbWrPmwkVNEngUZvYkHwGLbNXM7xgFUuDQ==
 
 "@sentry/hub@^7.16.0":
   version "7.17.4"
@@ -2528,16 +2564,14 @@
     node-abi "^3.28.0"
     node-gyp "^9.3.0"
 
-"@sentry/react@7.19.0":
-  version "7.19.0"
-  resolved "https://registry.yarnpkg.com/@sentry/react/-/react-7.19.0.tgz#de2599b27023fe24f508b34b00929ff6c19bfb23"
-  integrity sha512-ooF1TwdgkHkUo7u9Bx+kab51gpVNUW7b+5A2krfhk/Fx2eY8z5VilzUzHCRq2jbTE9yJTpfRL3KlEXROs0AUvg==
+"@sentry/react@9.29.0":
+  version "9.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry/react/-/react-9.29.0.tgz#c625967874be4d4fc837ce26826602309a41a1d4"
+  integrity sha512-Wb8oKkIr/1yZ0GRz1UH4CRcjIU48iQLSDLXFKZ8YwPpPdC5qq7l4ALraxlcdB+uWq0JIgEjN5FSLamdt/NHX/w==
   dependencies:
-    "@sentry/browser" "7.19.0"
-    "@sentry/types" "7.19.0"
-    "@sentry/utils" "7.19.0"
+    "@sentry/browser" "9.29.0"
+    "@sentry/core" "9.29.0"
     hoist-non-react-statics "^3.3.2"
-    tslib "^1.9.3"
 
 "@sentry/release-parser@^1.3.1":
   version "1.3.1"
