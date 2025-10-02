@@ -2197,6 +2197,14 @@
     "@react-aria/utils" "^3.8.2"
     clsx "^1.1.1"
 
+"@react-stately/collections@^3.12.8":
+  version "3.12.8"
+  resolved "https://registry.yarnpkg.com/@react-stately/collections/-/collections-3.12.8.tgz#f38692fb9c6384fb91d1c50052a40e595d3efa2c"
+  integrity sha512-AceJYLLXt1Y2XIcOPi6LEJSs4G/ubeYW3LqOCQbhfIgMaNqKfQMIfagDnPeJX9FVmPFSlgoCBxb1pTJW2vjCAQ==
+  dependencies:
+    "@react-types/shared" "^3.32.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-stately/collections@^3.3.3", "@react-stately/collections@^3.3.4", "@react-stately/collections@^3.4.3", "@react-stately/collections@^3.4.4":
   version "3.4.4"
   resolved "https://registry.yarnpkg.com/@react-stately/collections/-/collections-3.4.4.tgz#9df0b690bac0d3a95bc01352937ec74160c6bd29"
@@ -2205,27 +2213,16 @@
     "@babel/runtime" "^7.6.2"
     "@react-types/shared" "^3.15.0"
 
-"@react-stately/list@^3.5.3":
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/@react-stately/list/-/list-3.5.3.tgz#4a9473194f2a9465ec8bfe6b201036b90d0d52bf"
-  integrity sha512-qO8RhtXKdXKWqoJiwB+iw18SwY4NlMoDGX08wnesIz10blWyBotx81uR6C53Z7pAlbm4jUSO8KlJ9ACvhy/6Mg==
+"@react-stately/list@^3.13.1", "@react-stately/list@^3.5.3":
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/@react-stately/list/-/list-3.13.1.tgz#4afd36a87c8fd991a4447d28cc76d51fffddb837"
+  integrity sha512-eHaoauh21twbcl0kkwULhVJ+CzYcy1jUjMikNVMHOQdhr4WIBdExf7PmSgKHKqsSPhpGg6IpTCY2dUX3RycjDg==
   dependencies:
-    "@babel/runtime" "^7.6.2"
-    "@react-stately/collections" "^3.4.3"
-    "@react-stately/selection" "^3.10.3"
-    "@react-stately/utils" "^3.5.1"
-    "@react-types/shared" "^3.14.1"
-
-"@react-stately/list@^3.5.4":
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/@react-stately/list/-/list-3.5.4.tgz#0282c1925aaed33bb0e32b90d0e1524ee82399d8"
-  integrity sha512-AB0r2RevKVAP2AOQM1JRuCVjS2UUxMJFshA53t8pV+OSVWeyirYccsMR49mWwU60ZnxYqBWVMN+Pl7NTPTnT8w==
-  dependencies:
-    "@babel/runtime" "^7.6.2"
-    "@react-stately/collections" "^3.4.4"
-    "@react-stately/selection" "^3.11.0"
-    "@react-stately/utils" "^3.5.1"
-    "@react-types/shared" "^3.15.0"
+    "@react-stately/collections" "^3.12.8"
+    "@react-stately/selection" "^3.20.6"
+    "@react-stately/utils" "^3.10.8"
+    "@react-types/shared" "^3.32.1"
+    "@swc/helpers" "^0.5.0"
 
 "@react-stately/menu@^3.2.3":
   version "3.2.3"
@@ -2288,25 +2285,25 @@
     "@react-stately/utils" "^3.5.1"
     "@react-types/shared" "^3.15.0"
 
-"@react-stately/tabs@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@react-stately/tabs/-/tabs-3.2.1.tgz#bc32bd13e1816d536000848e133d6ebc44c75bc7"
-  integrity sha512-3Z5MrJrx7Ozkp5kjhYgDs8p0kNmLocsHgq1IWgBRTRdTyQB01ixEuhR1g6A+BHFLojyDB6EKBX8TrbZPsnHRdQ==
+"@react-stately/selection@^3.20.6":
+  version "3.20.6"
+  resolved "https://registry.yarnpkg.com/@react-stately/selection/-/selection-3.20.6.tgz#17d4d4553403de6ab690172a8d36e0423a5173fb"
+  integrity sha512-a0bjuP2pJYPKEiedz2Us1W1aSz0iHRuyeQEdBOyL6Z6VUa6hIMq9H60kvseir2T85cOa4QggizuRV7mcO6bU5w==
   dependencies:
-    "@babel/runtime" "^7.6.2"
-    "@react-stately/list" "^3.5.3"
-    "@react-stately/utils" "^3.5.1"
-    "@react-types/tabs" "^3.1.3"
+    "@react-stately/collections" "^3.12.8"
+    "@react-stately/utils" "^3.10.8"
+    "@react-types/shared" "^3.32.1"
+    "@swc/helpers" "^0.5.0"
 
-"@react-stately/tabs@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@react-stately/tabs/-/tabs-3.2.2.tgz#f7f9448959696747154bb1fcadf5ee367a0fc44a"
-  integrity sha512-7rG93LrsAV5q3X0kXzMnxab642768zzkSxP7u/qBObJJldg8cpK2yRmDTxpFuz0goB1qiswxsyUrA4ddIUgd+g==
+"@react-stately/tabs@^3.2.1", "@react-stately/tabs@^3.8.6":
+  version "3.8.6"
+  resolved "https://registry.yarnpkg.com/@react-stately/tabs/-/tabs-3.8.6.tgz#c71e3ed2462d89ad9c06fb78c69b2069625c68fd"
+  integrity sha512-9RYxmgjVIxUpIsGKPIF7uRoHWOEz8muwaYiStCVeyiYBPmarvZoIYtTXcwSMN/vEs7heVN5uGCL6/bfdY4+WiA==
   dependencies:
-    "@babel/runtime" "^7.6.2"
-    "@react-stately/list" "^3.5.4"
-    "@react-stately/utils" "^3.5.1"
-    "@react-types/tabs" "^3.1.4"
+    "@react-stately/list" "^3.13.1"
+    "@react-types/shared" "^3.32.1"
+    "@react-types/tabs" "^3.3.19"
+    "@swc/helpers" "^0.5.0"
 
 "@react-stately/toggle@^3.2.3":
   version "3.2.3"
@@ -2329,12 +2326,12 @@
     "@react-stately/utils" "^3.5.1"
     "@react-types/shared" "^3.15.0"
 
-"@react-stately/utils@^3.2.2", "@react-stately/utils@^3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@react-stately/utils/-/utils-3.5.1.tgz#502de762e5d33e892347c5f58053674e06d3bc92"
-  integrity sha512-INeQ5Er2Jm+db8Py4upKBtgfzp3UYgwXYmbU/XJn49Xw27ktuimH9e37qP3bgHaReb5L3g8IrGs38tJUpnGPHA==
+"@react-stately/utils@^3.10.8", "@react-stately/utils@^3.2.2", "@react-stately/utils@^3.5.1":
+  version "3.10.8"
+  resolved "https://registry.yarnpkg.com/@react-stately/utils/-/utils-3.10.8.tgz#fdb9d172f7bbc2d083e69190f5ef0edfa4b4392f"
+  integrity sha512-SN3/h7SzRsusVQjQ4v10LaVsDc81jyyR0DD5HnsQitm/I5WDpaSr2nRHtyloPFU48jlql1XX/S04T2DLQM7Y3g==
   dependencies:
-    "@babel/runtime" "^7.6.2"
+    "@swc/helpers" "^0.5.0"
 
 "@react-types/button@^3.4.1", "@react-types/button@^3.7.0":
   version "3.7.0"
@@ -2394,24 +2391,17 @@
   dependencies:
     "@react-types/shared" "^3.15.0"
 
-"@react-types/shared@^3.10.0", "@react-types/shared@^3.14.1", "@react-types/shared@^3.15.0", "@react-types/shared@^3.16.0", "@react-types/shared@^3.8.0", "@react-types/shared@^3.9.0":
-  version "3.16.0"
-  resolved "https://registry.yarnpkg.com/@react-types/shared/-/shared-3.16.0.tgz#cab7bf0376969d1773480ecb2d6da5aa91391db5"
-  integrity sha512-IQgU4oAEvMwylEvaTsr2XB1G/mAoMe1JFYLD6G78v++oAR9l8o9MQxZ0YSeANDkqTamb2gKezGoT1RxvSKjVxw==
+"@react-types/shared@^3.10.0", "@react-types/shared@^3.14.1", "@react-types/shared@^3.15.0", "@react-types/shared@^3.16.0", "@react-types/shared@^3.32.1", "@react-types/shared@^3.8.0", "@react-types/shared@^3.9.0":
+  version "3.32.1"
+  resolved "https://registry.yarnpkg.com/@react-types/shared/-/shared-3.32.1.tgz#abfeb839d65d0abe923576f34ac08342c25dfa55"
+  integrity sha512-famxyD5emrGGpFuUlgOP6fVW2h/ZaF405G5KDi3zPHzyjAWys/8W6NAVJtNbkCkhedmvL0xOhvt8feGXyXaw5w==
 
-"@react-types/tabs@^3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@react-types/tabs/-/tabs-3.1.3.tgz#a9de35aa9a97997b5b2d3e94ec91e46920ded90d"
-  integrity sha512-RfHVSsbQiiIaJxf1qBdTt+mWj1GGC7AK/sXAQGhf3p3bi8fXBcXv2hZyPQF8uWZfb8sANtEXP8V3Xdg5SlWFGA==
+"@react-types/tabs@^3.1.3", "@react-types/tabs@^3.3.19":
+  version "3.3.19"
+  resolved "https://registry.yarnpkg.com/@react-types/tabs/-/tabs-3.3.19.tgz#344a22bd15400b738aebc26918cf96dacde1ffef"
+  integrity sha512-fE+qI43yR5pAMpeqPxGqQq9jDHXEPqXskuxNHERMW0PYMdPyem2Cw6goc5F4qeZO3Hf6uPZgHkvJz2OAq7TbBw==
   dependencies:
-    "@react-types/shared" "^3.14.1"
-
-"@react-types/tabs@^3.1.4":
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/@react-types/tabs/-/tabs-3.1.4.tgz#dd30348eb6e15c20363afbac4c74e51d978cbc00"
-  integrity sha512-4gXBeNUTD/pSXe3JNZRVftPep/mrmvnbqfNoJG15//HBmoLaWIRgD0FvhGJfK9bQ0PyVG11wrqRku2dy6zaGyw==
-  dependencies:
-    "@react-types/shared" "^3.15.0"
+    "@react-types/shared" "^3.32.1"
 
 "@react-types/textfield@^3.3.0", "@react-types/textfield@^3.6.1":
   version "3.6.1"
@@ -3591,6 +3581,13 @@
     qs "^6.10.0"
     regenerator-runtime "^0.13.7"
     resolve-from "^5.0.0"
+
+"@swc/helpers@^0.5.0":
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.17.tgz#5a7be95ac0f0bf186e7e6e890e7a6f6cda6ce971"
+  integrity sha512-5IKx/Y13RsYd+sauPb2x+U/xZikHjolzfuDgTAl/Tdf3Q8rslRvC19NKDLgAJQ6wsqADk10ntlv08nPFw/gO/A==
+  dependencies:
+    tslib "^2.8.0"
 
 "@tanstack/query-core@^4.0.0-beta.1":
   version "4.2.1"
@@ -14888,6 +14885,11 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
+tslib@^2.8.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tsutils@^3.21.0:
   version "3.21.0"
