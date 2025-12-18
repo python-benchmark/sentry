@@ -46,7 +46,7 @@ exam==0.10.6
 exceptiongroup==1.0.0rc9
 execnet==1.9.0
 fido2==0.9.2
-filelock==3.7.0
+filelock==3.20.1
 flake8==5.0.2
 flake8-bugbear==22.7.1
 freezegun==1.1.0
